@@ -1,6 +1,6 @@
 {
   "name": "@burtthecoder/mcp-dnstwist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for dnstwist - DNS fuzzing to detect typosquatting, phishing and corporate espionage",
   "main": "build/index.js",
   "type": "module",
