@@ -1,0 +1,46 @@
+{
+  "name": "@burtthecoder/mcp-dnstwist",
+  "version": "1.0.0",
+  "description": "MCP server for dnstwist - DNS fuzzing to detect typosquatting, phishing and corporate espionage",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-dnstwist": "build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burtthecoder/mcp-dnstwist.git"
+  },
+  "keywords": [
+    "mcp",
+    "dnstwist",
+    "dns",
+    "security",
+    "phishing",
+    "typosquatting",
+    "domain-security",
+    "claude",
+    "claude-desktop"
+  ],
+  "author": "burtmacklin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
