@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server for [dnstwist](https://github.com/elceef/dnstwist), a powerful DNS fuzzing tool that helps detect typosquatting, phishing, and corporate espionage. This server provides tools for analyzing domain permutations and identifying potentially malicious domains. It is designed to integrate seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai).
 
+<a href="https://glama.ai/mcp/servers/it7izu3ufb"><img width="380" height="200" src="https://glama.ai/mcp/servers/it7izu3ufb/badge" alt="mcp-dnstwist MCP server" /></a>
+
 ## ⚠️ Warning
 
 This tool is designed for legitimate security research purposes. Please:
